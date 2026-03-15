@@ -6,7 +6,8 @@ Uma landing page imersiva de cafeteria artesanal com experiência cinematográfi
 
 ## Demonstração
 
-> Abra o `index.html` no navegador com os três arquivos na mesma pasta.  
+🔗 **[vieiratechbr.github.io/cafe-vieira](https://vieiratechbr.github.io/cafe-vieira/)**
+
 > Use o scroll, as setas do teclado ou os dots laterais para navegar entre as cenas.
 
 ---
@@ -106,17 +107,15 @@ const driftY = (my / window.innerHeight - .5) * baseZ * 20;
 
 ---
 
-## Como Usar Localmente
+## Deploy
+
+O projeto está hospedado via **GitHub Pages** e não requer build, bundler ou dependências.
 
 ```bash
-git clone https://github.com/vieiratechbr/<repo>
-cd <repo>
-
-# Basta abrir no navegador
-open index.html
+git clone https://github.com/vieiratechbr/cafe-vieira
 ```
 
-Nenhuma instalação, nenhum build, nenhuma dependência.
+Qualquer push na branch `main` atualiza o site automaticamente.
 
 ---
 
