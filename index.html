@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grão & Alma — Cafeteria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;1,300;1,400&family=Mulish:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="curR"></div>
+
+<div id="progress"></div>
+<div id="grain"></div>
+<div id="vignette"></div>
+<div id="blackout"></div>
+
+<nav id="topNav">
+  <div class="nav-logo">Grão <em>&</em> Alma</div>
+  <div class="nav-tag">Cafeteria Artesanal</div>
+</nav>
+
+<div id="sceneHud">
+  <div class="hud-dot on" data-i="0"></div>
+  <div class="hud-dot" data-i="1"></div>
+  <div class="hud-dot" data-i="2"></div>
+  <div class="hud-dot" data-i="3"></div>
+  <div class="hud-dot" data-i="4"></div>
+  <div class="hud-dot" data-i="5"></div>
+  <div class="hud-dot" data-i="6"></div>
+  <div class="hud-dot" data-i="7"></div>
+  <div id="sceneNum">01 / 08</div>
+</div>
+
+<div id="stage"></div>
+
+<div id="textStage">
+
+  <div class="txt-block" id="t0">
+    <p class="txt-eyebrow">Bem-vindo</p>
+    <h1 class="txt-title">
+      <span class="line"><span>Onde cada</span></span>
+      <span class="line"><span>grão conta</span></span>
+      <span class="line"><span>uma <em>história.</em></span></span>
+    </h1>
+    <p class="txt-body">Role para entrar no nosso universo.</p>
+  </div>
+
+  <div class="txt-block top-left" id="t1">
+    <p class="txt-eyebrow">A Origem</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Da terra</span></span>
+      <span class="line"><span>às suas</span></span>
+      <span class="line"><span><em>mãos.</em></span></span>
+    </h2>
+    <p class="txt-body">Cada xícara começa muito antes de chegar até você. Selecionamos grãos de origem controlada, cultivados por pequenos produtores apaixonados.</p>
+  </div>
+
+  <div class="txt-block bot-right" id="t2">
+    <p class="txt-eyebrow">O Aroma</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Antes de</span></span>
+      <span class="line"><span>provar,</span></span>
+      <span class="line"><span>você <em>sente.</em></span></span>
+    </h2>
+    <p class="txt-body">O torra artesanal revela notas escondidas — chocolate, caramelo, frutas silvestres. Um ritual que começa no olfato.</p>
+  </div>
+
+  <div class="txt-block mid-right" id="t3">
+    <p class="txt-eyebrow">O Preparo</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Arte</span></span>
+      <span class="line"><span><em>e técnica</em></span></span>
+      <span class="line"><span>em equilíbrio.</span></span>
+    </h2>
+    <p class="txt-body">Nossos baristas são artesãos. Cada extração é precisa, cada detalhe importa. O espresso perfeito não acontece por acaso.</p>
+  </div>
+
+  <div class="txt-block" id="t4">
+    <p class="txt-eyebrow">O Lugar</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Um espaço</span></span>
+      <span class="line"><span>feito para</span></span>
+      <span class="line"><span>você <em>respirar.</em></span></span>
+    </h2>
+    <p class="txt-body">Luz natural, madeira aquecida, o murmúrio certo. Projetamos cada detalhe para que o tempo aqui passe diferente.</p>
+  </div>
+
+  <div class="txt-block bot-left" id="t5">
+    <p class="txt-eyebrow">A Xícara</p>
+    <h2 class="txt-title">
+      <span class="line"><span>O momento</span></span>
+      <span class="line"><span>em que tudo</span></span>
+      <span class="line"><span>faz <em>sentido.</em></span></span>
+    </h2>
+    <p class="txt-body">Temperatura ideal. Crema dourada. A primeira dose do dia que transforma tudo que vem depois.</p>
+  </div>
+
+  <div class="txt-block top-left" id="t6">
+    <p class="txt-eyebrow">A Conexão</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Pessoas</span></span>
+      <span class="line"><span>se encontram</span></span>
+      <span class="line"><span>aqui <em>todos</em></span></span>
+      <span class="line"><span><em>os dias.</em></span></span>
+    </h2>
+    <p class="txt-body">O café sempre foi um pretexto para estar junto. Aqui, cada mesa tem uma história.</p>
+  </div>
+
+  <div class="txt-block" id="t7" style="background: linear-gradient(to top, rgba(14,9,6,0.82) 0%, rgba(14,9,6,0.45) 60%, transparent 100%); justify-content: flex-end; padding-bottom: 100px;">
+    <p class="txt-eyebrow">O Criador por trás da experiência</p>
+    <h2 class="txt-title">
+      <span class="line"><span>Gostou do</span></span>
+      <span class="line"><span>que você</span></span>
+      <span class="line"><span><em>viveu aqui?</em></span></span>
+    </h2>
+    <p class="txt-body">Isso foi só uma amostra. Confira mais projetos, experimentos e código no meu GitHub.</p>
+    <a href="https://github.com/vieiratechbr" target="_blank" class="txt-cta" style="pointer-events:all; display:inline-flex; align-items:center; gap:12px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      vieiratechbr no GitHub
+    </a>
+  </div>
+
+</div>
+
+<div id="scrollHint">
+  <span>Role para explorar</span>
+  <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+</div>
+
+<div id="scrollArea">
+  <div id="scrollTrack"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
